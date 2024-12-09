@@ -1,0 +1,14 @@
+name: Fake Continuous Integration
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Simulate Validation
+        run: echo Validation Passed
+        
